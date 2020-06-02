@@ -1,0 +1,67 @@
+123300100909
+
+## for stock details
+Request URL: http://epos.bihar.gov.in/fps_stock_register.action
+Request Method: POST
+Status Code: 200 OK
+Remote Address: 123.63.38.171:80
+Referrer Policy: no-referrer-when-downgrade
+
+POST /fps_stock_register.action HTTP/1.1
+Host: epos.bihar.gov.in
+Connection: keep-alive
+Content-Length: 51
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://epos.bihar.gov.in
+Referer: http://epos.bihar.gov.in/Stock_Register_Interface.jsp
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=gMw6WsXIcE7BSZKj1yMdjkjP
+
+dist_code=233&fps_id=123300100909&month=5&year=2020
+
+
+
+# for sales details
+Request URL: http://epos.bihar.gov.in/fps_transactions.action
+Request Method: POST
+Status Code: 200 OK
+Remote Address: 123.63.38.171:80
+Referrer Policy: no-referrer-when-downgrade
+
+POST /fps_transactions.action HTTP/1.1
+Host: epos.bihar.gov.in
+Connection: keep-alive
+Content-Length: 51
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://epos.bihar.gov.in
+Referer: http://epos.bihar.gov.in/FPS_Trans_Abstract.jsp
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=gMw6WsXIcE7BSZKj1yMdjkjP
+
+dist_code=233&fps_id=123300100909&month=5&year=2020
+
+
+# card details
+POST /SRC_Trans_Details.jsp HTTP/1.1
+Host: epos.bihar.gov.in
+Connection: keep-alive
+Content-Length: 45
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://epos.bihar.gov.in
+Referer: http://epos.bihar.gov.in/SRC_Trans_Int.jsp
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=98sN2iRfHTYmMi98iMuS2AT3
+
+src_no=10310060089016100057&month=5&year=2020
